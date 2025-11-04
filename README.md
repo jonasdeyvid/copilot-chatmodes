@@ -288,8 +288,9 @@ Este repositório está protegido com **Branch Protection Rules** para garantir 
 
 - ✅ **Commits diretos na `main` são bloqueados**
 - ✅ **Pull Requests obrigatórios** para todas as mudanças
-- ✅ **Revisão obrigatória** (1 aprovação necessária)
-- ✅ **Proteção aplicada até para administradores**
+- ✅ **Revisão obrigatória** (1 aprovação necessária) para terceiros
+- ✅ **Owner pode fazer merge** dos próprios PRs sem aprovação adicional
+- ✅ **Reviews antigas são invalidadas** quando novos commits são adicionados
 
 ### Como Contribuir com as Regras Ativas
 
@@ -306,7 +307,8 @@ git commit -m "feat: minha mudança"
 # 3. Push da branch
 git push origin feature/minha-mudanca
 
-# 4. Abrir PR no GitHub e aguardar aprovação
+# 4. Abrir PR no GitHub
+# 5. Se for contribuidor externo, aguardar aprovação do owner
 ```
 
 ## 🤝 Contribuindo
