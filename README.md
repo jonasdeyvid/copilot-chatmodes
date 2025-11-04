@@ -30,14 +30,48 @@ Este repositório contém **ChatModes especializados** para GitHub Copilot que t
 - ✅ **Melhores práticas** para cada tipo de tarefa
 - ✅ **Workflows automatizados** para aumentar produtividade
 
+
 ## 🚀 ChatModes Disponíveis
 
-### 1️⃣ 🤖 Robot Framework Test Automator
+### 1️⃣ 🎨 ChatMode Generator
+
+**Arquivo:** `.github/chatmodes/chatmode-generator.chatmode.md`
+
+Especialista em criar novos ChatModes personalizados para GitHub Copilot.
+
+**Principais Features:**
+
+- 📋 Análise de requisitos e descoberta
+- 🛠️ Seleção inteligente de ferramentas
+- 📝 Geração de estrutura completa
+- 🎯 Templates por categoria (Dev, Tests, DevOps, Docs)
+- ✅ Validação de sintaxe e boas práticas
+- 🔄 Iteração e melhoria contínua
+
+**Ideal para:**
+
+- Criar novos ChatModes customizados
+- Padronizar estrutura de ChatModes
+- Aprender sobre ferramentas disponíveis
+- Manter consistência no projeto
+
+**Templates Disponíveis:**
+
+- Development ChatModes
+- Test Automation ChatModes
+- DevOps/CI-CD ChatModes
+- Documentation ChatModes
+
+---
+
+### 2️⃣ 🤖 Robot Framework Test Automator
+
 **Arquivo:** `.github/chatmodes/robot-tester.chatmode.md`
 
 Especialista em criar testes automatizados com Robot Framework e SeleniumLibrary.
 
 **Principais Features:**
+
 - 🔍 Analisa código-fonte antes de criar testes
 - 🎯 Cria testes E2E completos e precisos
 - 🛠️ Suporta Vue.js, React e outros frameworks
@@ -45,6 +79,7 @@ Especialista em criar testes automatizados com Robot Framework e SeleniumLibrary
 - ✨ Segue boas práticas de test automation
 
 **Ideal para:**
+
 - Criar suítes de testes automatizados
 - Testes de interface (UI Testing)
 - Testes E2E complexos
@@ -52,12 +87,14 @@ Especialista em criar testes automatizados com Robot Framework e SeleniumLibrary
 
 ---
 
-### 2️⃣ 📚 Code Documentation Assistant
+### 3️⃣ 📚 Code Documentation Assistant
+
 **Arquivo:** `.github/chatmodes/code-documentation.chatmode.md`
 
 Assistente especializado em documentação técnica com análise arquitetural.
 
 **Principais Features:**
+
 - 🏗️ Análise de arquitetura de alto nível
 - 📊 Geração de diagramas Mermaid
 - 📝 Documentação de APIs e interfaces
@@ -65,12 +102,14 @@ Assistente especializado em documentação técnica com análise arquitetural.
 - 📖 READMEs profissionais
 
 **Ideal para:**
+
 - Documentar projetos novos ou existentes
 - Criar diagramas de arquitetura
 - Guias de contribuição
 - Documentação de APIs
 
 **Tipos de Diagramas Suportados:**
+
 - Architecture diagrams
 - Sequence diagrams
 - Flowcharts
@@ -79,12 +118,14 @@ Assistente especializado em documentação técnica com análise arquitetural.
 
 ---
 
-### 3️⃣ 🔒 Security Vulnerability Fixer
+### 4️⃣ 🔒 Security Vulnerability Fixer
+
 **Arquivo:** `.github/chatmodes/fix-vuln-dependabot.chatmode.md`
 
 Especialista em análise e correção de vulnerabilidades do Dependabot.
 
 **Principais Features:**
+
 - 🔍 Análise de vulnerabilidades por severidade
 - 🛡️ Estratégias de correção inteligentes
 - 📦 Gestão de dependências
@@ -92,10 +133,13 @@ Especialista em análise e correção de vulnerabilidades do Dependabot.
 - 📊 Avaliação de impacto
 
 **Ideal para:**
+
 - Corrigir alertas de segurança
 - Atualizar dependências com segurança
 - Análise de CVEs
 - Refatoração para versões seguras
+
+---
 
 ---
 
@@ -110,6 +154,7 @@ Especialista em análise e correção de vulnerabilidades do Dependabot.
 ### Método 1: Clone Direto no Workspace
 
 1. **Clone este repositório no seu workspace:**
+
    ```bash
    git clone https://github.com/jonasdeyvid/copilot-chatmodes.git
    ```
@@ -118,22 +163,36 @@ Especialista em análise e correção de vulnerabilidades do Dependabot.
 
 3. **Acesse no VS Code:**
    - Abra o Copilot Chat (`Ctrl+Shift+I` ou `Cmd+Shift+I`)
-   - Clique no ícone de configurações
+   - Clique no ícone de configurações (⚙️)
    - Selecione o ChatMode desejado
+
+### 🖼️ Como Selecionar um ChatMode
+
+No Copilot Chat, clique no ícone de configurações (⚙️) e selecione o ChatMode desejado:
+
+<div align="center">
+  <img src="images/chatmode-selection.png" alt="Seleção de ChatMode" width="600">
+  <p><em>Clique no ícone ⚙️ no canto superior direito e escolha o ChatMode no dropdown</em></p>
+</div>
+
+> 💡 **Dica:** O ChatMode ativo será exibido no topo do chat e você pode alternar entre eles a qualquer momento!
 
 ### Método 2: Copiar ChatModes Específicos
 
 1. **Navegue até a pasta do seu projeto:**
+
    ```bash
    cd seu-projeto
    ```
 
 2. **Crie a estrutura necessária:**
+
    ```bash
    mkdir -p .github/chatmodes
    ```
 
 3. **Copie o ChatMode desejado:**
+
    ```bash
    cp copilot-chatmodes/.github/chatmodes/[nome-do-chatmode].chatmode.md .github/chatmodes/
    ```
@@ -149,7 +208,11 @@ copilot-chatmodes/
 │   └── chatmodes/
 │       ├── robot-tester.chatmode.md
 │       ├── code-documentation.chatmode.md
-│       └── fix-vuln-dependabot.chatmode.md
+│       ├── fix-vuln-dependabot.chatmode.md
+│       └── chatmode-generator.chatmode.md
+│
+├── images/
+│   └── chatmode-selection.png
 │
 └── README.md
 ```
@@ -186,6 +249,16 @@ Você: "Analise e corrija as vulnerabilidades do Dependabot"
 AI: [Lista vulnerabilidades, avalia impacto e aplica correções]
 ```
 
+### Exemplo 4: Criando Novos ChatModes
+
+```plaintext
+[No Copilot Chat com ChatMode Generator ativo]
+
+Você: "Crie um ChatMode para trabalhar com APIs GraphQL"
+
+AI: [Analisa requisitos, seleciona ferramentas e gera ChatMode completo]
+```
+
 ## 🛠️ Estrutura de um ChatMode
 
 Cada ChatMode segue esta estrutura:
@@ -215,19 +288,25 @@ Contribuições são bem-vindas! Se você tem um ChatMode útil, siga estes pass
 
 1. **Fork este repositório**
 2. **Crie uma branch para sua feature:**
+
    ```bash
    git checkout -b feature/novo-chatmode
    ```
+
 3. **Adicione seu ChatMode** em `.github/chatmodes/`
 4. **Atualize este README** com informações sobre o novo ChatMode
 5. **Commit suas mudanças:**
+
    ```bash
    git commit -m "feat: adiciona chatmode para [funcionalidade]"
    ```
+
 6. **Push para a branch:**
+
    ```bash
    git push origin feature/novo-chatmode
    ```
+
 7. **Abra um Pull Request**
 
 ### Guidelines para Novos ChatModes
@@ -256,4 +335,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Feito com ❤️ por [Jonas Deyvid](https://github.com/jonasdeyvid)
 
-</div> 
+</div>
