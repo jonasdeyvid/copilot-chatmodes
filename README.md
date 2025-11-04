@@ -282,6 +282,33 @@ model: Claude Sonnet 4
 [Casos de uso e exemplos]
 ```
 
+## 🔒 Proteção do Repositório
+
+Este repositório está protegido com **Branch Protection Rules** para garantir qualidade:
+
+- ✅ **Commits diretos na `main` são bloqueados**
+- ✅ **Pull Requests obrigatórios** para todas as mudanças
+- ✅ **Revisão obrigatória** (1 aprovação necessária)
+- ✅ **Proteção aplicada até para administradores**
+
+### Como Contribuir com as Regras Ativas
+
+Para fazer mudanças no repositório, você deve seguir o fluxo de PR:
+
+```bash
+# 1. Criar branch para sua mudança
+git checkout -b feature/minha-mudanca
+
+# 2. Fazer commits na branch
+git add .
+git commit -m "feat: minha mudança"
+
+# 3. Push da branch
+git push origin feature/minha-mudanca
+
+# 4. Abrir PR no GitHub e aguardar aprovação
+```
+
 ## 🤝 Contribuindo
 
 Contribuições são bem-vindas! Se você tem um ChatMode útil, siga estes passos:
