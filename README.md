@@ -30,114 +30,120 @@ Este repositório contém **ChatModes especializados** para GitHub Copilot que t
 - ✅ **Melhores práticas** para cada tipo de tarefa
 - ✅ **Workflows automatizados** para aumentar produtividade
 
-
 ## 🚀 ChatModes Disponíveis
 
-### 1️⃣ 🎨 ChatMode Generator
+> **Total: 19 ChatModes especializados** organizados por categoria para máxima produtividade!
 
-**Arquivo:** `.github/chatmodes/chatmode-generator.chatmode.md`
+## 🎨 **Meta & Tools**
 
-Especialista em criar novos ChatModes personalizados para GitHub Copilot.
+### 🎨 ChatMode Generator
 
-**Principais Features:**
+**Arquivo:** `chatmode-generator.chatmode.md`  
+Especialista em criar novos ChatModes personalizados. Analisa requisitos, seleciona ferramentas e gera ChatModes completos com templates por categoria.
 
-- 📋 Análise de requisitos e descoberta
-- 🛠️ Seleção inteligente de ferramentas
-- 📝 Geração de estrutura completa
-- 🎯 Templates por categoria (Dev, Tests, DevOps, Docs)
-- ✅ Validação de sintaxe e boas práticas
-- 🔄 Iteração e melhoria contínua
+## 🐛 **Debugging & Quality Assurance**
 
-**Ideal para:**
+### � Debug & Troubleshooting Expert
 
-- Criar novos ChatModes customizados
-- Padronizar estrutura de ChatModes
-- Aprender sobre ferramentas disponíveis
-- Manter consistência no projeto
+**Arquivo:** `debug-troubleshooting.chatmode.md`  
+Root cause analysis e resolução de bugs complexos. Usa metodologia sistemática, analisa stack traces e implementa fixes precisos.
 
-**Templates Disponíveis:**
+### 🧪 Unit Test Generator
 
-- Development ChatModes
-- Test Automation ChatModes
-- DevOps/CI-CD ChatModes
-- Documentation ChatModes
+**Arquivo:** `unit-test-generator.chatmode.md`  
+Gera testes unitários abrangentes com alta cobertura. Cria mocks inteligentes, fixtures e testa edge cases automaticamente.
 
----
+### 🤖 Robot Framework Test Automator
 
-### 2️⃣ 🤖 Robot Framework Test Automator
+**Arquivo:** `robot-tester.chatmode.md`  
+Especialista em testes E2E com Robot Framework. Analisa código-fonte Vue.js/React e cria testes precisos baseados em elementos reais.
 
-**Arquivo:** `.github/chatmodes/robot-tester.chatmode.md`
+### 🎯 Code Review Bot
 
-Especialista em criar testes automatizados com Robot Framework e SeleniumLibrary.
+**Arquivo:** `code-review-bot.chatmode.md`  
+Review automatizado de código. Analisa PRs, identifica problemas de segurança, performance e best practices.
 
-**Principais Features:**
+## 🔄 **Code Improvement**
 
-- 🔍 Analisa código-fonte antes de criar testes
-- 🎯 Cria testes E2E completos e precisos
-- 🛠️ Suporta Vue.js, React e outros frameworks
-- 📊 Gera locators baseados no código real
-- ✨ Segue boas práticas de test automation
+### 🔄 Refactoring Assistant
 
-**Ideal para:**
+**Arquivo:** `refactoring-assistant.chatmode.md`  
+Refatoração segura de código. Identifica code smells, aplica design patterns e melhora qualidade mantendo testes verdes.
 
-- Criar suítes de testes automatizados
-- Testes de interface (UI Testing)
-- Testes E2E complexos
-- Integração contínua
+### ⚡ Performance Optimizer
 
----
+**Arquivo:** `performance-optimizer.chatmode.md`  
+Identifica e resolve gargalos de performance. Otimiza queries, algoritmos e implementa estratégias de caching.
 
-### 3️⃣ 📚 Code Documentation Assistant
+## 🏗️ **Architecture & APIs**
 
-**Arquivo:** `.github/chatmodes/code-documentation.chatmode.md`
+### 🔌 API Designer
 
-Assistente especializado em documentação técnica com análise arquitetural.
+**Arquivo:** `api-designer.chatmode.md`  
+Design de APIs REST/GraphQL seguindo best practices. Cria endpoints bem estruturados e documentação OpenAPI/Swagger.
 
-**Principais Features:**
+### 🗄️ Database Expert
 
-- 🏗️ Análise de arquitetura de alto nível
-- 📊 Geração de diagramas Mermaid
-- 📝 Documentação de APIs e interfaces
-- 🔧 Guias de setup e desenvolvimento
-- 📖 READMEs profissionais
+**Arquivo:** `database-expert.chatmode.md`  
+Design de schemas, otimização de queries SQL e migrations seguras. Especialista em relacionamentos, índices e performance.
 
-**Ideal para:**
+### 📚 Code Documentation Assistant
 
-- Documentar projetos novos ou existentes
-- Criar diagramas de arquitetura
-- Guias de contribuição
-- Documentação de APIs
+**Arquivo:** `code-documentation.chatmode.md`  
+Documentação técnica com análise arquitetural. Gera diagramas Mermaid, READMEs profissionais e documentação de APIs.
 
-**Tipos de Diagramas Suportados:**
+## 🎨 **Frontend Development**
 
-- Architecture diagrams
-- Sequence diagrams
-- Flowcharts
-- Class diagrams
-- Entity relationships
+### 🎨 Frontend Component Builder
 
----
+**Arquivo:** `frontend-component-builder.chatmode.md`  
+Componentes React/Vue/Angular reutilizáveis. Gerencia estado, implementa best practices e garante acessibilidade (a11y).
 
-### 4️⃣ 🔒 Security Vulnerability Fixer
+## 🔐 **Security & DevOps**
 
-**Arquivo:** `.github/chatmodes/fix-vuln-dependabot.chatmode.md`
+### 🔐 Security Auditor
 
-Especialista em análise e correção de vulnerabilidades do Dependabot.
+**Arquivo:** `security-auditor.chatmode.md`  
+Análise de segurança OWASP Top 10. Identifica vulnerabilidades, implementa autenticação/autorização e valida inputs.
 
-**Principais Features:**
+### 🔒 Security Vulnerability Fixer
 
-- 🔍 Análise de vulnerabilidades por severidade
-- 🛡️ Estratégias de correção inteligentes
-- 📦 Gestão de dependências
-- 🔄 Migração segura de pacotes
-- 📊 Avaliação de impacto
+**Arquivo:** `fix-vuln-dependabot.chatmode.md`  
+Correção de vulnerabilidades do Dependabot. Analisa CVEs, aplica patches e migra para versões seguras.
 
-**Ideal para:**
+### 🐳 DevOps & Infrastructure Expert
 
-- Corrigir alertas de segurança
-- Atualizar dependências com segurança
-- Análise de CVEs
-- Refatoração para versões seguras
+**Arquivo:** `devops-infrastructure.chatmode.md`  
+Docker, Kubernetes, CI/CD e Infrastructure as Code. Automatiza deploys e configura pipelines confiáveis.
+
+## 🛠️ **Tools & Utilities**
+
+### � Git & Version Control Expert
+
+**Arquivo:** `git-version-control.chatmode.md`  
+Git workflows, resolução de conflitos e rebase interativo. Mantém histórico limpo e implementa git hooks.
+
+### 📦 Package Manager Expert
+
+**Arquivo:** `package-manager.chatmode.md`  
+Gestão de dependências (npm, yarn, pip, poetry). Otimiza package.json, resolve conflitos e gerencia workspaces.
+
+### 🌐 i18n & Localization Specialist
+
+**Arquivo:** `i18n-localization.chatmode.md`  
+Internacionalização com i18next, react-intl. Setup completo, extração de strings e gestão de traduções.
+
+## 🐍 **Language Specific**
+
+### 🐍 Python Expert
+
+**Arquivo:** `python-expert.chatmode.md`  
+Python moderno com type hints, async/await e Poetry. Código pythonic, otimizado e seguindo PEP 8.
+
+### 📊 Data Analysis Assistant
+
+**Arquivo:** `data-analysis.chatmode.md`  
+Análise de dados com Pandas/NumPy. ETL pipelines, visualizações e Jupyter notebooks otimizados.
 
 ---
 
@@ -170,10 +176,9 @@ Especialista em análise e correção de vulnerabilidades do Dependabot.
 
 No Copilot Chat, clique no ícone de configurações (⚙️) e selecione o ChatMode desejado:
 
-<div align="center">
-  <img src="images/chatmode-selection.png" alt="Seleção de ChatMode" width="600">
-  <p><em>Clique no ícone ⚙️ no canto superior direito e escolha o ChatMode no dropdown</em></p>
-</div>
+![Seleção de ChatMode](images/chatmode-selection.png)
+
+> 💡 **Como usar:** Clique no ícone ⚙️ no canto superior direito e escolha o ChatMode no dropdown
 
 > 💡 **Dica:** O ChatMode ativo será exibido no topo do chat e você pode alternar entre eles a qualquer momento!
 
@@ -205,11 +210,26 @@ No Copilot Chat, clique no ícone de configurações (⚙️) e selecione o Chat
 copilot-chatmodes/
 │
 ├── .github/
-│   └── chatmodes/
-│       ├── robot-tester.chatmode.md
+│   └── chatmodes/                      # 19 ChatModes especializados
+│       ├── api-designer.chatmode.md
+│       ├── chatmode-generator.chatmode.md
 │       ├── code-documentation.chatmode.md
+│       ├── code-review-bot.chatmode.md
+│       ├── data-analysis.chatmode.md
+│       ├── database-expert.chatmode.md
+│       ├── debug-troubleshooting.chatmode.md
+│       ├── devops-infrastructure.chatmode.md
 │       ├── fix-vuln-dependabot.chatmode.md
-│       └── chatmode-generator.chatmode.md
+│       ├── frontend-component-builder.chatmode.md
+│       ├── git-version-control.chatmode.md
+│       ├── i18n-localization.chatmode.md
+│       ├── package-manager.chatmode.md
+│       ├── performance-optimizer.chatmode.md
+│       ├── python-expert.chatmode.md
+│       ├── refactoring-assistant.chatmode.md
+│       ├── robot-tester.chatmode.md
+│       ├── security-auditor.chatmode.md
+│       └── unit-test-generator.chatmode.md
 │
 ├── images/
 │   └── chatmode-selection.png
@@ -219,42 +239,67 @@ copilot-chatmodes/
 
 ## 💡 Exemplos de Uso
 
-### Exemplo 1: Criando Testes Automatizados
+### 🤖 Testes Automatizados com Robot Framework
 
 ```plaintext
-[No Copilot Chat com Robot Tester ativo]
+[ChatMode: Robot Tester ativo]
 
 Você: "Crie testes E2E para o fluxo de login do meu app Vue.js"
 
-AI: [Analisa o código-fonte, identifica elementos e cria testes precisos]
+AI: [Analisa código-fonte, identifica elementos, cria keywords customizadas
+     e testes estruturados com relatórios detalhados]
 ```
 
-### Exemplo 2: Documentando Arquitetura
+### 🏗️ Design de APIs RESTful
 
 ```plaintext
-[No Copilot Chat com Documentation Assistant ativo]
+[ChatMode: API Designer ativo]
 
-Você: "Analise este repositório e crie documentação completa com diagramas"
+Você: "Preciso de uma API para gerenciamento de produtos e-commerce"
 
-AI: [Gera README, diagramas de arquitetura e documentação técnica]
+AI: [Cria esquemas OpenAPI, endpoints RESTful, validações, 
+     documentação Swagger e testes automatizados]
 ```
 
-### Exemplo 3: Corrigindo Vulnerabilidades
+### 🔒 Auditoria de Segurança
 
 ```plaintext
-[No Copilot Chat com Security Fixer ativo]
+[ChatMode: Security Auditor ativo]
 
 Você: "Analise e corrija as vulnerabilidades do Dependabot"
 
-AI: [Lista vulnerabilidades, avalia impacto e aplica correções]
+AI: [Escaneia dependências, avalia riscos, aplica patches seguros
+     e documenta correções implementadas]
 ```
 
-### Exemplo 4: Criando Novos ChatModes
+### 🎨 Componentes Frontend Modernos
 
 ```plaintext
-[No Copilot Chat com ChatMode Generator ativo]
+[ChatMode: Frontend Component Builder ativo]
 
-Você: "Crie um ChatMode para trabalhar com APIs GraphQL"
+Você: "Desenvolva um sistema de design tokens para React/Tailwind"
+
+AI: [Cria tokens tipados, componentes acessíveis, temas dinâmicos
+     e documentação Storybook interativa]
+```
+
+### 🔧 Debugging Avançado
+
+```plaintext
+[ChatMode: Debug Troubleshooting ativo]
+
+Você: "Aplicação está lenta, preciso otimizar performance"
+
+AI: [Analisa bottlenecks, implementa profiling, otimiza queries
+     e configura monitoramento em tempo real]
+```
+
+### 🛠️ Criação de Novos ChatModes
+
+```plaintext
+[ChatMode: ChatMode Generator ativo]
+
+Você: "Crie um ChatMode especializado em microserviços com Docker"
 
 AI: [Analisa requisitos, seleciona ferramentas e gera ChatMode completo]
 ```
@@ -358,10 +403,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-<div align="center">
-
 **⭐ Se este projeto foi útil, considere dar uma estrela!**
 
 Feito com ❤️ por [Jonas Deyvid](https://github.com/jonasdeyvid)
-
-</div>
