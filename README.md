@@ -34,115 +34,115 @@ Este repositório contém **ChatModes especializados** para GitHub Copilot que t
 
 > **Total: 19 ChatModes especializados** organizados por categoria para máxima produtividade!
 
-## 🎨 **Meta & Tools**
+### 1. 🎨 **Meta & Tools**
 
-### 🎨 ChatMode Generator
+#### 1.1 🎨 ChatMode Generator
 
-**Arquivo:** `chatmode-generator.chatmode.md`  
+**Arquivo:** `1.1-chatmode-generator.chatmode.md`  
 Especialista em criar novos ChatModes personalizados. Analisa requisitos, seleciona ferramentas e gera ChatModes completos com templates por categoria.
 
-## 🐛 **Debugging & Quality Assurance**
+### 2. 🐛 **Debugging & Quality Assurance**
 
-### � Debug & Troubleshooting Expert
+#### 2.1 🔧 Debug & Troubleshooting Expert
 
-**Arquivo:** `debug-troubleshooting.chatmode.md`  
+**Arquivo:** `2.1-debug-troubleshooting.chatmode.md`  
 Root cause analysis e resolução de bugs complexos. Usa metodologia sistemática, analisa stack traces e implementa fixes precisos.
 
-### 🧪 Unit Test Generator
+#### 2.2 🧪 Unit Test Generator
 
-**Arquivo:** `unit-test-generator.chatmode.md`  
+**Arquivo:** `2.2-unit-test-generator.chatmode.md`  
 Gera testes unitários abrangentes com alta cobertura. Cria mocks inteligentes, fixtures e testa edge cases automaticamente.
 
-### 🤖 Robot Framework Test Automator
+#### 2.3 🤖 Robot Framework Test Automator
 
-**Arquivo:** `robot-tester.chatmode.md`  
+**Arquivo:** `2.3-robot-tester.chatmode.md`  
 Especialista em testes E2E com Robot Framework. Analisa código-fonte Vue.js/React e cria testes precisos baseados em elementos reais.
 
-### 🎯 Code Review Bot
+#### 2.4 🎯 Code Review Bot
 
-**Arquivo:** `code-review-bot.chatmode.md`  
+**Arquivo:** `2.4-code-review-bot.chatmode.md`  
 Review automatizado de código. Analisa PRs, identifica problemas de segurança, performance e best practices.
 
-## 🔄 **Code Improvement**
+### 3. 🔄 **Code Improvement**
 
-### 🔄 Refactoring Assistant
+#### 3.1 🔄 Refactoring Assistant
 
-**Arquivo:** `refactoring-assistant.chatmode.md`  
+**Arquivo:** `3.1-refactoring-assistant.chatmode.md`  
 Refatoração segura de código. Identifica code smells, aplica design patterns e melhora qualidade mantendo testes verdes.
 
-### ⚡ Performance Optimizer
+#### 3.2 ⚡ Performance Optimizer
 
-**Arquivo:** `performance-optimizer.chatmode.md`  
+**Arquivo:** `3.2-performance-optimizer.chatmode.md`  
 Identifica e resolve gargalos de performance. Otimiza queries, algoritmos e implementa estratégias de caching.
 
-## 🏗️ **Architecture & APIs**
+### 4. 🏗️ **Architecture & APIs**
 
-### 🔌 API Designer
+#### 4.1 🔌 API Designer
 
-**Arquivo:** `api-designer.chatmode.md`  
+**Arquivo:** `4.1-api-designer.chatmode.md`  
 Design de APIs REST/GraphQL seguindo best practices. Cria endpoints bem estruturados e documentação OpenAPI/Swagger.
 
-### 🗄️ Database Expert
+#### 4.2 🗄️ Database Expert
 
-**Arquivo:** `database-expert.chatmode.md`  
+**Arquivo:** `4.2-database-expert.chatmode.md`  
 Design de schemas, otimização de queries SQL e migrations seguras. Especialista em relacionamentos, índices e performance.
 
-### 📚 Code Documentation Assistant
+#### 4.3 📚 Code Documentation Assistant
 
-**Arquivo:** `code-documentation.chatmode.md`  
+**Arquivo:** `4.3-code-documentation.chatmode.md`  
 Documentação técnica com análise arquitetural. Gera diagramas Mermaid, READMEs profissionais e documentação de APIs.
 
-## 🎨 **Frontend Development**
+### 5. 🎨 **Frontend Development**
 
-### 🎨 Frontend Component Builder
+#### 5.1 🎨 Frontend Component Builder
 
-**Arquivo:** `frontend-component-builder.chatmode.md`  
+**Arquivo:** `5.1-frontend-component-builder.chatmode.md`  
 Componentes React/Vue/Angular reutilizáveis. Gerencia estado, implementa best practices e garante acessibilidade (a11y).
 
-## 🔐 **Security & DevOps**
+### 6. 🔐 **Security & DevOps**
 
-### 🔐 Security Auditor
+#### 6.1 🔐 Security Auditor
 
-**Arquivo:** `security-auditor.chatmode.md`  
+**Arquivo:** `6.1-security-auditor.chatmode.md`  
 Análise de segurança OWASP Top 10. Identifica vulnerabilidades, implementa autenticação/autorização e valida inputs.
 
-### 🔒 Security Vulnerability Fixer
+#### 6.2 🔒 Security Vulnerability Fixer
 
-**Arquivo:** `fix-vuln-dependabot.chatmode.md`  
+**Arquivo:** `6.2-fix-vuln-dependabot.chatmode.md`  
 Correção de vulnerabilidades do Dependabot. Analisa CVEs, aplica patches e migra para versões seguras.
 
-### 🐳 DevOps & Infrastructure Expert
+#### 6.3 🐳 DevOps & Infrastructure Expert
 
-**Arquivo:** `devops-infrastructure.chatmode.md`  
+**Arquivo:** `6.3-devops-infrastructure.chatmode.md`  
 Docker, Kubernetes, CI/CD e Infrastructure as Code. Automatiza deploys e configura pipelines confiáveis.
 
-## 🛠️ **Tools & Utilities**
+### 7. 🛠️ **Tools & Utilities**
 
-### � Git & Version Control Expert
+#### 7.1 🔀 Git & Version Control Expert
 
-**Arquivo:** `git-version-control.chatmode.md`  
+**Arquivo:** `7.1-git-version-control.chatmode.md`  
 Git workflows, resolução de conflitos e rebase interativo. Mantém histórico limpo e implementa git hooks.
 
-### 📦 Package Manager Expert
+#### 7.2 📦 Package Manager Expert
 
-**Arquivo:** `package-manager.chatmode.md`  
+**Arquivo:** `7.2-package-manager.chatmode.md`  
 Gestão de dependências (npm, yarn, pip, poetry). Otimiza package.json, resolve conflitos e gerencia workspaces.
 
-### 🌐 i18n & Localization Specialist
+#### 7.3 🌐 i18n & Localization Specialist
 
-**Arquivo:** `i18n-localization.chatmode.md`  
+**Arquivo:** `7.3-i18n-localization.chatmode.md`  
 Internacionalização com i18next, react-intl. Setup completo, extração de strings e gestão de traduções.
 
-## 🐍 **Language Specific**
+### 8. 🐍 **Language Specific**
 
-### 🐍 Python Expert
+#### 8.1 🐍 Python Expert
 
-**Arquivo:** `python-expert.chatmode.md`  
+**Arquivo:** `8.1-python-expert.chatmode.md`  
 Python moderno com type hints, async/await e Poetry. Código pythonic, otimizado e seguindo PEP 8.
 
-### 📊 Data Analysis Assistant
+#### 8.2 📊 Data Analysis Assistant
 
-**Arquivo:** `data-analysis.chatmode.md`  
+**Arquivo:** `8.2-data-analysis.chatmode.md`  
 Análise de dados com Pandas/NumPy. ETL pipelines, visualizações e Jupyter notebooks otimizados.
 
 ---
@@ -199,7 +199,11 @@ No Copilot Chat, clique no ícone de configurações (⚙️) e selecione o Chat
 3. **Copie o ChatMode desejado:**
 
    ```bash
-   cp copilot-chatmodes/.github/chatmodes/[nome-do-chatmode].chatmode.md .github/chatmodes/
+   # Exemplo: copiar o ChatMode Generator
+   cp copilot-chatmodes/.github/chatmodes/1.1-chatmode-generator.chatmode.md .github/chatmodes/
+   
+   # Ou copiar todos
+   cp copilot-chatmodes/.github/chatmodes/*.chatmode.md .github/chatmodes/
    ```
 
 4. **Recarregue o VS Code** ou reabra a janela do Copilot Chat
@@ -210,26 +214,34 @@ No Copilot Chat, clique no ícone de configurações (⚙️) e selecione o Chat
 copilot-chatmodes/
 │
 ├── .github/
-│   └── chatmodes/                      # 19 ChatModes especializados
-│       ├── api-designer.chatmode.md
-│       ├── chatmode-generator.chatmode.md
-│       ├── code-documentation.chatmode.md
-│       ├── code-review-bot.chatmode.md
-│       ├── data-analysis.chatmode.md
-│       ├── database-expert.chatmode.md
-│       ├── debug-troubleshooting.chatmode.md
-│       ├── devops-infrastructure.chatmode.md
-│       ├── fix-vuln-dependabot.chatmode.md
-│       ├── frontend-component-builder.chatmode.md
-│       ├── git-version-control.chatmode.md
-│       ├── i18n-localization.chatmode.md
-│       ├── package-manager.chatmode.md
-│       ├── performance-optimizer.chatmode.md
-│       ├── python-expert.chatmode.md
-│       ├── refactoring-assistant.chatmode.md
-│       ├── robot-tester.chatmode.md
-│       ├── security-auditor.chatmode.md
-│       └── unit-test-generator.chatmode.md
+│   └── chatmodes/                                      # 19 ChatModes especializados
+│       │
+│       ├── 1.1-chatmode-generator.chatmode.md          # Meta & Tools
+│       │
+│       ├── 2.1-debug-troubleshooting.chatmode.md       # Debugging & QA
+│       ├── 2.2-unit-test-generator.chatmode.md
+│       ├── 2.3-robot-tester.chatmode.md
+│       ├── 2.4-code-review-bot.chatmode.md
+│       │
+│       ├── 3.1-refactoring-assistant.chatmode.md       # Code Improvement
+│       ├── 3.2-performance-optimizer.chatmode.md
+│       │
+│       ├── 4.1-api-designer.chatmode.md                # Architecture & APIs
+│       ├── 4.2-database-expert.chatmode.md
+│       ├── 4.3-code-documentation.chatmode.md
+│       │
+│       ├── 5.1-frontend-component-builder.chatmode.md  # Frontend
+│       │
+│       ├── 6.1-security-auditor.chatmode.md            # Security & DevOps
+│       ├── 6.2-fix-vuln-dependabot.chatmode.md
+│       ├── 6.3-devops-infrastructure.chatmode.md
+│       │
+│       ├── 7.1-git-version-control.chatmode.md         # Tools & Utilities
+│       ├── 7.2-package-manager.chatmode.md
+│       ├── 7.3-i18n-localization.chatmode.md
+│       │
+│       ├── 8.1-python-expert.chatmode.md               # Language Specific
+│       └── 8.2-data-analysis.chatmode.md
 │
 ├── images/
 │   └── chatmode-selection.png
