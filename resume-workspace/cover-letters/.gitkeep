@@ -1,0 +1,13 @@
+# Cover Letters Directory
+
+Cartas de apresentação personalizadas geradas pelo ChatMode.
+
+## Formato
+
+Cada cover letter será salva como:
+- `cover-letter-[empresa]-[data].md`
+
+O ChatMode gera automaticamente baseado em:
+- Análise da vaga
+- Experiências relevantes do seu currículo
+- Tom adequado à cultura da empresa

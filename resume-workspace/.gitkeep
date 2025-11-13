@@ -1,0 +1,132 @@
+# 📄 Resume Optimizer Workspace
+
+Esta pasta é o **workspace dedicado** para o ChatMode **Resume & Job Application Optimizer**.
+
+## 📁 Estrutura de Arquivos
+
+```
+resume-workspace/
+├── resumes/           # Seus currículos (atual e versões otimizadas)
+├── job-descriptions/  # Descrições de vagas que você está aplicando
+├── cover-letters/     # Cartas de apresentação geradas
+└── analysis/          # Relatórios de análise e match scores
+```
+
+## 🔒 Privacidade e Segurança
+
+⚠️ **IMPORTANTE:** Todo o conteúdo desta pasta (exceto arquivos `.gitkeep`) 
+está configurado no `.gitignore` para **proteger suas informações pessoais**.
+
+### O que NÃO será commitado:
+
+- ❌ Currículos com dados pessoais
+- ❌ Informações de contato
+- ❌ Histórico profissional
+- ❌ Cartas de apresentação personalizadas
+- ❌ Análises de match com empresas específicas
+
+### O que SERÁ versionado:
+
+- ✅ Estrutura de pastas (`.gitkeep`)
+- ✅ Arquivos de documentação
+
+## 🚀 Como Usar
+
+### 1. Preparar Arquivos
+
+```bash
+# Salvar descrição da vaga
+resume-workspace/job-descriptions/empresa-cargo-2024-11-13.md
+
+# Salvar seu currículo atual
+resume-workspace/resumes/current-resume.md
+```
+
+### 2. Ativar o ChatMode
+
+1. Abra o Copilot Chat (`Ctrl+Shift+I` ou `Cmd+Shift+I`)
+2. Clique no ícone ⚙️ (configurações)
+3. Selecione **"Resume & Job Application Optimizer"**
+
+### 3. Solicitar Análise
+
+```plaintext
+Exemplo 1 - Análise Completa:
+"Analise meu currículo contra a vaga em job-descriptions/google-swe-2024-11-13.md"
+
+Exemplo 2 - Match Score:
+"Calcule o match score entre meu currículo e esta vaga: [cole descrição]"
+
+Exemplo 3 - Gerar Currículo Otimizado:
+"Gere um currículo otimizado para a vaga da Microsoft em MD e PDF"
+
+Exemplo 4 - Cover Letter:
+"Crie uma carta de apresentação para a vaga de React Developer"
+```
+
+### 4. Arquivos Gerados
+
+O ChatMode irá criar automaticamente:
+
+- `resumes/optimized-resume-[empresa]-[data].md` - Currículo otimizado
+- `resumes/optimized-resume-[empresa]-[data].pdf` - Versão PDF (se Pandoc disponível)
+- `analysis/match-analysis-[empresa]-[data].md` - Relatório de análise
+- `cover-letters/cover-letter-[empresa]-[data].md` - Carta personalizada
+
+## 📊 Convenção de Nomenclatura
+
+Use nomes descritivos e padronizados:
+
+```bash
+# ✅ BOM - Descritivo e datado
+google-senior-software-engineer-2024-11-13.md
+optimized-resume-microsoft-azure-2024-11-13.md
+match-analysis-amazon-sde2-2024-11-13.md
+
+# ❌ EVITAR - Genérico
+vaga.md
+resume.md
+analysis.md
+```
+
+## 🛠️ Ferramentas Opcionais
+
+### Gerar PDF com Pandoc
+
+```bash
+# Instalar Pandoc + LaTeX
+sudo apt-get install pandoc texlive-xetex
+
+# Converter MD para PDF
+cd resume-workspace/resumes
+pandoc optimized-resume.md -o optimized-resume.pdf
+```
+
+### Template Profissional (Eisvogel)
+
+```bash
+# Download do template
+wget https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -P ~/.pandoc/templates/
+
+# Usar template
+pandoc resume.md -o resume.pdf --template=eisvogel
+```
+
+## 📚 Recursos Úteis
+
+- **ChatMode:** `.github/chatmodes/9.1-resume-optimizer.chatmode.md`
+- **Documentação Pandoc:** https://pandoc.org/
+- **Template Eisvogel:** https://github.com/Wandmalfarbe/pandoc-latex-template
+- **ATS Tips:** https://www.jobscan.co/
+
+## 💡 Dicas
+
+1. **Mantenha Organizado:** Use subpastas por empresa se necessário
+2. **Versione Localmente:** Use Git em uma pasta privada separada
+3. **Backup:** Faça backup regular dos seus documentos
+4. **Revise Sempre:** Mesmo com AI, revise antes de enviar
+5. **Personalize:** Ajuste sugestões do ChatMode para seu contexto
+
+---
+
+**⚡ Transforme sua busca de emprego com análise estratégica de currículos!**

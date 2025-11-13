@@ -1,0 +1,14 @@
+# Analysis Directory
+
+Relatórios de análise e match scores salvos aqui.
+
+## Conteúdo dos Relatórios
+
+Cada análise inclui:
+- Match Score (0-100)
+- Skills presentes vs ausentes
+- Gaps identificados
+- Sugestões priorizadas
+- Before/After de seções específicas
+
+Formato: `match-analysis-[empresa]-[data].md`

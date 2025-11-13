@@ -1,0 +1,31 @@
+# Job Descriptions Directory
+
+Salve as descrições de vagas aqui para análise.
+
+## Exemplo de Estrutura
+
+```markdown
+# Senior React Developer - Empresa X
+
+## Sobre a vaga
+[Descrição da empresa e vaga]
+
+## Responsabilidades
+- [Responsabilidade 1]
+- [Responsabilidade 2]
+
+## Requisitos
+### Obrigatórios
+- [Requisito 1]
+- [Requisito 2]
+
+### Desejáveis
+- [Diferencial 1]
+- [Diferencial 2]
+
+## Stack
+- [Tecnologia 1]
+- [Tecnologia 2]
+```
+
+Salve como: `empresa-cargo-YYYY-MM-DD.md`
