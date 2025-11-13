@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Resume Optimizer Workspace
+# Protege informações pessoais - ignora todo o conteúdo
+resume-workspace/**/*
+
+# Mas permite as pastas e .gitkeep para versionar a estrutura
+!resume-workspace/
+!resume-workspace/*/
+!resume-workspace/.gitkeep
+!resume-workspace/**/.gitkeep

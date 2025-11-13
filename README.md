@@ -32,7 +32,7 @@ Este repositório contém **ChatModes especializados** para GitHub Copilot que t
 
 ## 🚀 ChatModes Disponíveis
 
-> **Total: 19 ChatModes especializados** organizados por categoria para máxima produtividade!
+> **Total: 20 ChatModes especializados** organizados por categoria para máxima produtividade!
 
 ### 1. 🎨 **Meta & Tools**
 
@@ -145,6 +145,13 @@ Python moderno com type hints, async/await e Poetry. Código pythonic, otimizado
 **Arquivo:** `8.2-data-analysis.chatmode.md`  
 Análise de dados com Pandas/NumPy. ETL pipelines, visualizações e Jupyter notebooks otimizados.
 
+### 9. 💼 **Career & Professional Development**
+
+#### 9.1 📄 Resume & Job Application Optimizer
+
+**Arquivo:** `9.1-resume-optimizer.chatmode.md`  
+Analisa vagas e currículos, calcula match score e sugere melhorias estratégicas. Gera currículos ATS-friendly em MD/PDF e cover letters personalizadas.
+
 ---
 
 ---
@@ -210,11 +217,11 @@ No Copilot Chat, clique no ícone de configurações (⚙️) e selecione o Chat
 
 ## 📁 Estrutura do Repositório
 
-```
+```plaintext
 copilot-chatmodes/
 │
 ├── .github/
-│   └── chatmodes/                                      # 19 ChatModes especializados
+│   └── chatmodes/                                      # 20 ChatModes especializados
 │       │
 │       ├── 1.1-chatmode-generator.chatmode.md          # Meta & Tools
 │       │
@@ -241,11 +248,21 @@ copilot-chatmodes/
 │       ├── 7.3-i18n-localization.chatmode.md
 │       │
 │       ├── 8.1-python-expert.chatmode.md               # Language Specific
-│       └── 8.2-data-analysis.chatmode.md
+│       ├── 8.2-data-analysis.chatmode.md
+│       │
+│       └── 9.1-resume-optimizer.chatmode.md            # Career & Professional
+│
+├── resume-workspace/                                    # Workspace do Resume Optimizer
+│   ├── resumes/                                        # Currículos (gitignored)
+│   ├── job-descriptions/                               # Descrições de vagas (gitignored)
+│   ├── cover-letters/                                  # Cartas de apresentação (gitignored)
+│   ├── analysis/                                       # Relatórios de análise (gitignored)
+│   └── .gitkeep                                        # Mantém estrutura no git
 │
 ├── images/
 │   └── chatmode-selection.png
 │
+├── .gitignore                                          # Protege dados pessoais
 └── README.md
 ```
 
@@ -315,6 +332,29 @@ Você: "Crie um ChatMode especializado em microserviços com Docker"
 
 AI: [Analisa requisitos, seleciona ferramentas e gera ChatMode completo]
 ```
+
+### 📄 Otimização de Currículo
+
+```plaintext
+[ChatMode: Resume Optimizer ativo]
+
+Você: "Analise meu currículo contra esta vaga de Senior React Developer"
+
+AI: [Calcula match score 78/100, identifica gaps, sugere melhorias 
+     específicas com before/after, gera currículo otimizado em MD/PDF
+     na pasta resume-workspace/]
+```
+
+**📁 Workspace Dedicado:**  
+O Resume Optimizer usa a pasta `resume-workspace/` para organizar:
+
+- ✅ **Currículos** (atual + otimizados)
+- ✅ **Descrições de vagas**
+- ✅ **Cartas de apresentação**
+- ✅ **Relatórios de análise**
+
+**🔒 Privacidade Garantida:**  
+Todo o conteúdo está no `.gitignore` - suas informações pessoais **nunca** serão commitadas!
 
 ## 🛠️ Estrutura de um ChatMode
 

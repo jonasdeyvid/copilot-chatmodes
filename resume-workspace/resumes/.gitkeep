@@ -1,0 +1,21 @@
+# Resumes Directory
+
+Coloque seus currículos aqui:
+
+- `current-resume.md` - Seu currículo atual
+- `optimized-resume-*.md` - Versões otimizadas geradas pelo ChatMode
+
+## Formato Recomendado
+
+Use Markdown para facilitar edição e conversão para PDF:
+
+```markdown
+# Seu Nome
+📧 email@example.com | 📱 (11) 99999-9999
+
+## Resumo Profissional
+[Seu resumo]
+
+## Experiência
+[Suas experiências]
+```
